@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/168a795d4b.js" crossorigin="anonymous"></script>
+
+  <title>MyApp</title>
+
+  <style type="text/css">
+    .jumbotron {
+      text-align: center;
+    }
+
+    body {
+      font-family: helvetica, sans-serif;
+    }
+
+    .textLogo {
+      font-family: 'Fondamento', cursive;
+      font-size: 40px;
+    }
+
+    #email {
+      width: 300px;
+    }
+
+    #appSummary {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .align {
+      margin-bottom: 7px;
+    }
+
+    .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    }
+
+    #footer {
+      background-color: aqua;
+      padding-top: 50px;
+      margin-top: 50px;
+      text-align: center;
+      padding-bottom: 40px;
+    }
+
+    .logoBG{
+      height: 50px;
+      width: 200px;
+      background-color: black;
+      margin: 0 auto;
+    }
+
+    .dlButton {
+      color: white;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand textLogo" href="#">E and A </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Download</a>
+        </li>
+      </ul>
+      <form class="form-inline pull-xs-right">
+        <input type="email" class="form-control" placeholder="Email">
+        <input type="password" class="form-control" placeholder="Password">
+        <button class="btn btn-success" type="submit">Login</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1 class="display-4" style="color: white">Welcome to E and A General Merchandise!</h1>
+    <p class="lead" style="color: white">Quality and Affordable products!</p>
+    <!-- <hr class="my-4"> -->
+    <p style="color: white">Want to know more? Join our mailing list!</p>
+
+    <form class=" form-inline justify-content-center">
+      <div class="col-auto">
+        <label class="sr-only" for="email">Email Address</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+          </div>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary align">Sign Up!</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <div id="appSummary">
+      <h1>Why our products?</h1>
+      <p class="lead">Because our products are world class quality at a very affordable price!</p>
+    </div>
+  </div>
+
+
+<div class="container">
+  <div class="card-deck">
+    <div class="card">
+      <img src="./images/egg.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">  Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/rice.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./images/bread.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container" id="footer">
+    <div>
+      <h2>Download the app!</h2>
+      <p>Really? Why should I download this app?</p>
+    </div>
+
+    <div class=logoBG>
+      <div class="dlButton"><i class="fab fa-apple"></i> Download</div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
